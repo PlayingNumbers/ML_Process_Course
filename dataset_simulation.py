@@ -56,6 +56,24 @@ def make_clv_dataset():
 
 	return df
 
+class MakeDataset:
+	def __init__(self, df):
+		self.df = df
+
+	def make_null_values(self):
+		self.df['age'] = np.where(df['age'] > 50, np.nan, self.df['age'])
+		self.df['days_on_platform'] = np.where(self.df['days_on_platform'] < 1, np.nan, self.df['days_on_platform'])
+
+	def make_outliers(self):
+		self.df.at[10,'purchases']=10000000
+		self.df.at[17,'purchases']=999999
+		self.df.at[125,'purchases']=34953
+		self.df.at[250,'purchases']=6466464
+		self.df.at[333,'purchases']=100000
+		self.df.at[653,'purchases']=999999
+		self.df.at[1155,'purchases']=3495
+		self.df.at[6666,'purchases']=646
+
 
 ##### Missing Values Section ######
 df = make_clv_dataset()
@@ -63,19 +81,12 @@ df = make_clv_dataset()
 ## Create MCAR dataset
 df_missing_random = df.mask(np.random.random(df.shape) < .3)
 
-## Create MNAR dataset
+## Create nulls dataset
 df = make_clv_dataset()
-df['age'] = np.where(df['age'] > 50, np.nan, df['age'])
-df['days_on_platform'] = np.where(df['days_on_platform'] < 1, np.nan, df['days_on_platform'])
+
+md = MakeDataset(df)
+md.make_null_values()
+md.make_outliers()
 
 
-df.to_csv("clv_data.csv")
-
-print(df.head())
-
-# print(pd.DataFrame(coef, columns=['True Coefficient Values']))
-
-## Marketing Mix Model
-
-
-## Customer Retention Dataset
+md.df.to_csv("clv_data.csv")
