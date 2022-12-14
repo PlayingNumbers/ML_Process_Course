@@ -21,16 +21,16 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 12. [Model Evaluation](https://github.com/PlayingNumbers/ML_Process_Course/blob/main/README.md#12-model-evaluation)
 
 ## Coding Workbooks for Each Course
-|Google Colab         | Kaggle Workbook      |
+|Kaggle Workbook        | Google Colab      |
 | :------------ | :-----------: |
-| [5-Missing Values](https://colab.research.google.com/drive/1P-4i_T1UE8_PLZibNApGbGPDxhOJDnd8?usp=sharing), [5-Outliers](https://colab.research.google.com/drive/1e_9VUn48sOebsEmDMRZ2R7OEkJLM9Zxt?usp=sharing) | [5-Missing Values](https://www.kaggle.com/code/kenjee/dealing-with-missing-values-section-5-1), [5-Outliers](https://www.kaggle.com/code/kenjee/dealing-with-outliers-section-5-2) |
-| [6-EDA](https://colab.research.google.com/drive/18sWPkf2o6yX2RJu0YRZRCbJqNzc5q8ZS?usp=sharing)  | [6-EDA](https://www.kaggle.com/code/kenjee/basic-eda-example-section-6)     |
-| [7-Categoricals](https://colab.research.google.com/drive/1F94kWYM_GTb-Neh_jCte04BxfcUdBodn?usp=sharing), [7-Continuous](https://colab.research.google.com/drive/1SGwguOuloOG7nd3OoOGBALR9jOg26UNt?usp=sharing)  | [7-Categoricals](https://www.kaggle.com/code/kenjee/categorical-feature-engineering-section-7-1), [7-Continuous](https://www.kaggle.com/code/kenjee/numeric-feature-engineering-section-7-2)  |
-| [8-Cross Validation](https://colab.research.google.com/drive/1xsVT5MWAX1Yq8KXMPbqU6DBti-NN17YH?usp=sharing) | [8-Cross Validation](https://www.kaggle.com/code/kenjee/cross-validation-foundations-section-8)    |
-| [9-Feature Selection](https://colab.research.google.com/drive/19uXC7Cm_K1FDTjkcRVjxcAY4f7dv6LDV?usp=sharing) | [9-Feature Selection](https://www.kaggle.com/code/kenjee/feature-selection-section-9)     |
-| [10-Imbalanced Data](https://colab.research.google.com/drive/1pulqugw0V1xyoMbQrB3aTdlwO0KDXDFf?usp=sharing) | [10-Imbalanced Data](https://www.kaggle.com/code/kenjee/dealing-with-imbalanced-data-section-10)    |
-| [11-Model Selection](https://colab.research.google.com/drive/1oV675pKGmCLIYE44a_Quw1s66c4LVcOq?usp=sharing) | [11-Model Selection](https://www.kaggle.com/code/kenjee/model-building-example-section-11)     |
-| [12-Model Evaluation Classification](https://colab.research.google.com/drive/1FYHAL3lbv7Rdh3EV9TooMFkPNv6MEJly?usp=sharing), [12-Model Evaluation Regression](https://colab.research.google.com/drive/1_of9a48P-rGkrS8US9YgwQm_58_1unAV?usp=sharing) | [12-Model Evaluation Classification](https://www.kaggle.com/code/kenjee/model-evaluation-classification-section-12), [12-Model Evaluation Regression](https://www.kaggle.com/code/kenjee/model-evaluation-regression-12)     |
+|[5-Missing Values](https://www.kaggle.com/code/kenjee/dealing-with-missing-values-section-5-1), [5-Outliers](https://www.kaggle.com/code/kenjee/dealing-with-outliers-section-5-2) | [5-Missing Values](https://colab.research.google.com/drive/1P-4i_T1UE8_PLZibNApGbGPDxhOJDnd8?usp=sharing), [5-Outliers](https://colab.research.google.com/drive/1e_9VUn48sOebsEmDMRZ2R7OEkJLM9Zxt?usp=sharing) | 
+| [6-EDA](https://www.kaggle.com/code/kenjee/basic-eda-example-section-6) |[6-EDA](https://colab.research.google.com/drive/18sWPkf2o6yX2RJu0YRZRCbJqNzc5q8ZS?usp=sharing)  | 
+| [7-Categoricals](https://www.kaggle.com/code/kenjee/categorical-feature-engineering-section-7-1), [7-Continuous](https://www.kaggle.com/code/kenjee/numeric-feature-engineering-section-7-2)  | [7-Categoricals](https://colab.research.google.com/drive/1F94kWYM_GTb-Neh_jCte04BxfcUdBodn?usp=sharing), [7-Continuous](https://colab.research.google.com/drive/1SGwguOuloOG7nd3OoOGBALR9jOg26UNt?usp=sharing)  | 
+| [8-Cross Validation](https://www.kaggle.com/code/kenjee/cross-validation-foundations-section-8)    |[8-Cross Validation](https://colab.research.google.com/drive/1xsVT5MWAX1Yq8KXMPbqU6DBti-NN17YH?usp=sharing) | 
+|  [9-Feature Selection](https://www.kaggle.com/code/kenjee/feature-selection-section-9)     |[9-Feature Selection](https://colab.research.google.com/drive/19uXC7Cm_K1FDTjkcRVjxcAY4f7dv6LDV?usp=sharing) |
+| [10-Imbalanced Data](https://www.kaggle.com/code/kenjee/dealing-with-imbalanced-data-section-10)    |[10-Imbalanced Data](https://colab.research.google.com/drive/1pulqugw0V1xyoMbQrB3aTdlwO0KDXDFf?usp=sharing) | 
+|  [11-Model Selection](https://www.kaggle.com/code/kenjee/model-building-example-section-11)     |[11-Model Selection](https://colab.research.google.com/drive/1oV675pKGmCLIYE44a_Quw1s66c4LVcOq?usp=sharing) |
+|  [12-Model Evaluation Classification](https://www.kaggle.com/code/kenjee/model-evaluation-classification-section-12), [12-Model Evaluation Regression](https://www.kaggle.com/code/kenjee/model-evaluation-regression-12)     |[12-Model Evaluation Classification](https://colab.research.google.com/drive/1FYHAL3lbv7Rdh3EV9TooMFkPNv6MEJly?usp=sharing), [12-Model Evaluation Regression](https://colab.research.google.com/drive/1_of9a48P-rGkrS8US9YgwQm_58_1unAV?usp=sharing) |
 
 ## Data Science Blogs
 - [AirBnB Engineering](https://medium.com/airbnb-engineering)
