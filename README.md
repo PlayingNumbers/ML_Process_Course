@@ -2,7 +2,7 @@
 This is the public repository for the ML Process Course (https://365datascience.com/learn-machine-learning-process-a-z/). In this course, we take you through the end-to-end process of building a Machine Learning Model. We did not build this course ourselves. We stood on the shoulders of giants. We think its only fair to credit all the resources we used to build this course, as we could not have created this course without the help of the ML community. 
 
 ## Flashcards
-Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up for account. Please got [here](https://github.com/PlayingNumbers/ML_Process_Course/blob/main/365datascience_ml_process_flashcards.apkg) to download the flashcards for this course.
+Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up for account. Please go [here](https://github.com/PlayingNumbers/ML_Process_Course/blob/main/365datascience_ml_process_flashcards.apkg) to download the flashcards for this course.
 
 
 ## Table of Contents
